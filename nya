@@ -1,0 +1,11 @@
+cd /data/user/0/com.openclaw.android/files/home/.openclaw/workspace/anime-app
+
+# 初始化 git
+git init
+git add .
+git commit -m "Initial commit"
+
+# 连接远程仓库（把 你的用户名 换成你的 GitHub 用户名）
+git remote add origin https://github.com/0d00-code/anime-app.git
+git branch -M main
+git push -u origin main
